@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mon film</string>
+    <string name="cari">Rechercher un film</string>
+    <string name="keluar">Quitter</string>
+    <string name="ubah_bahasa">Changer de langue</string>
+    <string name="not_found">Non trouvé</string>
+    <string name="failure">Vérifiez votre internet</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="upcoming">Up Coming</string>
+    <string name="nowplay">En cours de lecture</string>
+    <string name="hello_blank_fragment">Bonjour fragment blanc</string>
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.DetailActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginRight="@dimen/size_4"
+            android:layout_marginLeft="@dimen/size_4"
+            android:padding="@dimen/size_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/ivMovie"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <LinearLayout
+                android:layout_marginTop="@dimen/size_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:id="@+id/tvName"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#1a1a1a"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    tools:text="Captain America"/>
+
+                <ImageView
+                    android:id="@+id/ivFav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_favorite_black_24dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvDesc"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Deskripsi moview"/>
+
+            <TextView
+                android:textAlignment="textEnd"
+                android:layout_marginTop="@dimen/size_8"
+                android:layout_marginBottom="@dimen/size_8"
+                android:id="@+id/tvDate"
+                android:textSize="16sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Jumat, 14 Mei 2018"
+                android:gravity="end" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

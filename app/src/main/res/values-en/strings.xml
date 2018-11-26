@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="cari">Search Movie </string>
+    <string name="keluar">Exit</string>
+    <string name="ubah_bahasa">Change Language</string>
+    <string name="not_found">Not found</string>
+    <string name="failure">Check your internet</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="upcoming">Up Coming</string>
+    <string name="nowplay">Now Playing</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
